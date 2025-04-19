@@ -196,3 +196,10 @@ function initWebSocket() {
 
 // Start the bot.
 initWebSocket();
+
+// Export default fetch handler for Cloudflare Worker
+export default {
+  async fetch(request, env, ctx) {
+    return new Response("Hello from Pumpfun Bot!");
+  },
+};
