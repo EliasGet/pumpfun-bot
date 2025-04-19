@@ -1,0 +1,7 @@
+name = "pumpfun-bot"
+type = "javascript"
+
+account_id = "5e43c699192ecec19a391e0e0520eb86"
+workers_dev = true
+main = "index.js"
+compatibility_date = "2025-04-19"
